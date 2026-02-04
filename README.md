@@ -75,7 +75,8 @@ pip install -r requirements.txt
 ###3 Run API pipeline
    python scripts/api_to_postgres.py
 
-Key Learnings
+---
+**Key Learnings**
 
 Building production-ready ETL pipelines
 Handling API failures gracefully
@@ -83,7 +84,7 @@ Preventing duplicate data loads (idempotency)
 Writing clean, debuggable Python code
 Using Git for version control
 
-Future Improvements
+**Future Improvements**
 Environment variable based configuration
 Data quality checks
 Scheduling using Airflow or cron
